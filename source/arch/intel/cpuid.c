@@ -99,7 +99,6 @@ static bool s_has_avx512(void) {
     return true;
 }
 
-
 static bool s_has_bmi2(void) {
     uint32_t abcd[4];
 
